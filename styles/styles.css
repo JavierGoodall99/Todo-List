@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+body{
+    background: linear-gradient(to right, #ffc107cc, #ff5622d2, #e91e62c9, #9b27b0d3);
+    font-family: 'Concert One', cursive;
+    letter-spacing: 5px;
+}
+
+.container-fluid {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .add-todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .add-todo input[type="text"] {
+    flex-grow: 1;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+  }
+  
+  .add-todo button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color:   #9b27b0d3;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+  }
+  
+  .todo-item input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .todo-item button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color:   #ff5622d2;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+  }
